@@ -92,3 +92,17 @@ figure .image img {
       font-size:1.7em; 
     }
   }
+  @media all and (max-width:710px){
+    .nav a{
+      /* margin-left: 1.2em; */
+      font-size: 1.8em;
+      
+      margin-left: -7%!important;
+    }
+    .title{
+      font-size: 1.4em;
+    }
+    .subtitle{
+      font-size: 1em;
+    }
+  }
