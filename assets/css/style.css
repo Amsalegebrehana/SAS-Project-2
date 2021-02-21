@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Playfair+Display:ital,wght@0,400;1,800&display=swap'); */
+body{ 
+  background:linear-gradient(rgba(143, 142, 142, 0.2), rgba(158, 158, 158, 0.2));
+}
+
+.foot{
+  /* background-color: #1f181cb6; */
+  margin-bottom: 0%;
+}
+.nav a{
+  font-size: 40px;
+  padding-left: 35%;
+  text-transform: capitalize;
+}
+.tutorial{
+  box-shadow:  0 1px 4px 0 #a7a0a4b6 !important;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
