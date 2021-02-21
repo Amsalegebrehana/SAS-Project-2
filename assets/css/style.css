@@ -69,3 +69,26 @@ figure .image img {
     color: rgb(49, 156, 138);
     size: 30px;
   }
+  @media screen and (min-width:950px){
+    .nav{
+      /* margin-left: 1.2em; */
+      background-color: #1f181cb6;
+      align-items: center;
+    }
+    .media{
+      margin:10% 15% 5% 15%;
+    }
+    .tutorial {
+      width: 50%;
+      text-align: center;
+      /* margin-top: 0% !important; */
+    
+      margin: -12% auto;
+    }
+    .searchbar{
+      margin-left: 10%;
+    }
+    .media h1{
+      font-size:1.7em; 
+    }
+  }
