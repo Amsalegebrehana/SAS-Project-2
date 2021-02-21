@@ -22,3 +22,50 @@ figure.image {
   justify-content: center;
   background-color: black;
 }
+
+figure .image img {
+    width: 128px;
+  }
+  
+  .notification {
+    margin-top: 5% !important;
+    width: 60%;
+    background-color: #221c1fa4 !important;
+    /* align-items: center !important; */
+    margin-left: 30%;
+  }
+  .btn{
+    margin-left: 40%;
+    height: 10%;
+    width: 30%;
+    font-size: 1.5em;
+    background-color: rgb(49, 156, 138) !important;
+    color: aliceblue;
+  }
+  .subtitle i{
+    color: rgb(49, 156, 138);
+    size: 30px;
+  }
+  figure .image img {
+    width: 128px;
+  }
+  
+  .notification {
+    margin-top: 5% !important;
+    width: 60%;
+    background-color: #221c1fa4 !important;
+    /* align-items: center !important; */
+    margin-left: 30%;
+  }
+  .btn{
+    margin-left: 40%;
+    height: 10%;
+    width: 30%;
+    font-size: 1.5em;
+    background-color: rgb(49, 156, 138) !important;
+    color: aliceblue;
+  }
+  .subtitle i{
+    color: rgb(49, 156, 138);
+    size: 30px;
+  }
