@@ -106,3 +106,30 @@ figure .image img {
       font-size: 1em;
     }
   }
+  @media all and (max-width:950px){
+    .nav{
+      /* margin-left: 1.2em; */
+      background-color: #1f181cb6;
+      align-items: center;
+    }
+    .media{
+      margin:40% 15% 5% 15% !important;
+    }
+    .tutorial {
+      width: 90%;
+      text-align: center;
+      /* margin-top: 0% !important; */
+    
+      margin: -12% auto;
+    }
+    .searchbar{
+      margin-left: 7%;
+    }
+    .media h1{
+      font-size:1.2em; 
+    }
+  }
+  .hero {
+    margin-bottom: 20px;
+  }
+  
