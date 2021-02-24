@@ -28,5 +28,15 @@ const resultsWrapper = root.querySelector('.results');
 const onInput = async event => {
 const items = await fetchData(event.target.value);
 
+  if (!items) {
+    dropdown.classList.remove('is-active');
+    return;
+  }
+
+  resultsWrapper.innerHTML = '';
+
+
+}
+
 
 }
