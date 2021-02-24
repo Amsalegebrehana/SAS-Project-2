@@ -25,9 +25,8 @@ const input = root.querySelector('input');
 const dropdown = root.querySelector('.dropdown');
 const resultsWrapper = root.querySelector('.results');
 
-
-
-
+const onInput = async event => {
+const items = await fetchData(event.target.value);
 
 
 }
