@@ -34,7 +34,14 @@ const items = await fetchData(event.target.value);
   }
 
   resultsWrapper.innerHTML = '';
-
+  dropdown.classList.add('is-active');
+  for (let item of items) {
+    const option = document.createElement('a');
+  
+  
+  
+  
+  }
 
 }
 
