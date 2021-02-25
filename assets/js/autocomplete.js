@@ -38,12 +38,19 @@ const items = await fetchData(event.target.value);
   for (let item of items) {
     const option = document.createElement('a');
   
-  
-  
-  
+    option.classList.add('dropdown-item');
+      option.innerHTML = renderOption(item);
+      option.addEventListener('click', () => {
+        dropdown.classList.remove('is-active');
+        input.value = inputValue(item);
+        onOptionSelect(item);
+      });
+
+      resultsWrapper.appendChild(option);
+
   }
 
-}
+};
 
 
 }
