@@ -24,177 +24,158 @@ figure.image {
 }
 
 figure .image img {
-    width: 128px;
+  width: 128px;
 }
-  
-  .notification {
-    margin-top: 5% !important;
-    width: 60%;
-    background-color: #221c1fa4 !important;
-    /* align-items: center !important; */
-    margin-left: 30%;
+
+.notification {
+  margin-top: 5% !important;
+  width: 60%;
+  background-color: #221c1fa4 !important;
+  /* align-items: center !important; */
+  margin-left: 30%;
 }
-  .btn{
-    margin-left: 40%;
-    height: 10%;
-    width: 30%;
-    font-size: 1.5em;
-    background-color: rgb(49, 156, 138) !important;
-    color: aliceblue;
-  }
-  .subtitle i{
-    color: rgb(49, 156, 138);
-    size: 30px;
-  }
-  figure .image img {
-    width: 128px;
-  }
-  
-  .notification {
-    margin-top: 5% !important;
-    width: 60%;
-    background-color: #221c1fa4 !important;
-    /* align-items: center !important; */
-    margin-left: 30%;
-  }
-  .btn{
-    margin-left: 40%;
-    height: 10%;
-    width: 30%;
-    font-size: 1.5em;
-    background-color: rgb(49, 156, 138) !important;
-    color: aliceblue;
-  }
-  .subtitle i{
-    color: rgb(49, 156, 138);
-    size: 30px;
-  }
-  @media screen and (min-width:950px){
-    .nav{
-      /* margin-left: 1.2em; */
-      background-color: #1f181cb6;
-      align-items: center;
-    }
-    .media{
-      margin:10% 15% 5% 15%;
-    }
-    .tutorial {
-      width: 50%;
-      text-align: center;
-      /* margin-top: 0% !important; */
-    
-      margin: -12% auto;
-    }
-    .searchbar{
-      margin-left: 10%;
-    }
-    .media h1{
-      font-size:1.7em; 
-    }
-  }
-  @media all and (max-width:710px){
-    .nav a{
-      /* margin-left: 1.2em; */
-      font-size: 1.8em;
-      
-      margin-left: -7%!important;
-    }
-    .title{
-      font-size: 1.4em;
-    }
-    .subtitle{
-      font-size: 1em;
-    }
-  }
-  @media all and (max-width:950px){
-    .nav{
-      /* margin-left: 1.2em; */
-      background-color: #1f181cb6;
-      align-items: center;
-    }
-    .media{
-      margin:40% 15% 5% 15% !important;
-    }
-    .tutorial {
-      width: 90%;
-      text-align: center;
-      /* margin-top: 0% !important; */
-    
-      margin: -12% auto;
-    }
-    .searchbar{
-      margin-left: 7%;
-    }
-    .media h1{
-      font-size:1.2em; 
-    }
-  }
-  .hero {
-    margin-bottom: 20px;
-  }
-  .forms {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .results {
-    max-height: 500px;
-    overflow-y: scroll;
-  }
-  
-  .dropdown-item {
-    display: flex;
+.btn{
+  margin-left: 40%;
+  height: 10%;
+  width: 30%;
+  font-size: 1.5em;
+  background-color: rgb(49, 156, 138) !important;
+  color: aliceblue;
+}
+.subtitle i{
+  color: rgb(49, 156, 138);
+  size: 30px;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+@media screen and (min-width:950px){
+  .nav{
+    /* margin-left: 1.2em; */
+    background-color: #1f181cb6;
     align-items: center;
-    height: 60px;
-    background-color: rgba(120, 168, 160, 0.822);
-    margin-right: 5%;
   }
+  .media{
+    margin:10% 15% 5% 15%;
+  }
+  .tutorial {
+    width: 50%;
+    text-align: center;
+    /* margin-top: 0% !important; */
   
-  .dropdown-item img {
-    height: 50px;
-    margin-right: 5%;
+    margin: -12% auto;
+  }
+  .searchbar{
+    margin-left: 10%;
+  }
+  .media h1{
+    font-size:1.7em; 
+  }
+}
+@media all and (max-width:710px){
+  .nav a{
+    /* margin-left: 1.2em; */
+    font-size: 1.8em;
+    
+    margin-left: -7%!important;
   }
   .title{
-    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
   }
-  .titleLink {
-    text-decoration: none;
+  .subtitle{
+    font-size: 1em;
   }
+}
+@media all and (max-width:950px){
+  .nav{
+    /* margin-left: 1.2em; */
+    background-color: #1f181cb6;
+    align-items: center;
+  }
+  .media{
+    margin:40% 15% 5% 15% !important;
+  }
+  .tutorial {
+    width: 90%;
+    text-align: center;
+    /* margin-top: 0% !important; */
   
-  .bg-overlayspec {
-    /* background: url('./assets/images/books.jpg'); */
-    /* background:  url(./assets/images/books.jpg); */
-    /* opacity: 0.1; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 1080px;
-    /* z-index: -1; */
+    margin: -12% auto;
   }
-  
-  .input {
-    border-radius: 30px;
-    width: 380px;
+  .searchbar{
+    margin-left: 7%;
   }
-  
-  .specc {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), */
-    /* url(./assets/images/books.jpg); */
-    /* opacity: 1; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 200px;
-    /* z-index: -1; */
+  .media h1{
+    font-size:1.2em; 
   }
-  .card{
-    width: 20%; 
-    box-shadow: 0 1px 4px 0 rgb(56, 173, 154);
-    border-radius: 2%;
-    border: none !important;
-    padding: 5%;
-  }
-  .card h1{
-    font-weight: 300;
-  }
-  
+}
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(120, 168, 160, 0.822);
+  margin-right: 5%;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 5%;
+}
+.title{
+  font-family: 'Playfair Display', serif;
+}
+.titleLink {
+  text-decoration: none;
+}
+
+.bg-overlayspec {
+  /* background: url('./assets/images/books.jpg'); */
+  /* background:  url(./assets/images/books.jpg); */
+  /* opacity: 0.1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1080px;
+  /* z-index: -1; */
+}
+
+.input {
+  border-radius: 30px;
+  width: 380px;
+}
+
+.specc {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), */
+  /* url(./assets/images/books.jpg); */
+  /* opacity: 1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  /* z-index: -1; */
+}
+.card{
+  width: 20%; 
+  box-shadow: 0 1px 4px 0 rgb(56, 173, 154);
+  border-radius: 2%;
+  border: none !important;
+  padding: 5%;
+}
+.card h1{
+  font-weight: 300;
+}
