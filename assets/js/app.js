@@ -25,3 +25,12 @@ const autoCompleteConfig = {
         return response.data.items;
     }
 };
+createAutoComplete({
+    ...autoCompleteConfig,
+    root: document.querySelector('#left-autocomplete'),
+    onOptionSelect(book) {
+        document.querySelector('.tut2').classList.remove('bg-overlayspec');
+        document.querySelector('.tut2').classList.add('specc');
+        onBookSelect(book, document.querySelector('#left-summary'), 'left');
+    }
+});
