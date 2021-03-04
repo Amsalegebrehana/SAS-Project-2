@@ -80,5 +80,9 @@ const bookTemplate = (book) => {
     <p class="title">${book.volumeInfo.pageCount}</p>
     
   </article>
+  <article data-value=${pdfAvailabilty} class="notification is-primary">
+  <p class="title">${book.accessInfo.pdf.isAvailable ? 'Available' : 'Not Available'}</p>
+  <p class="subtitle">in PDF Format</p>
+</article>
   `;
 };
