@@ -84,5 +84,9 @@ const bookTemplate = (book) => {
   <p class="title">${book.accessInfo.pdf.isAvailable ? 'Available' : 'Not Available'}</p>
   <p class="subtitle">in PDF Format</p>
 </article>
+<article data-value=${link} class="  is-primary">
+    <a class= "subtitle titleLink btn" href=${book.volumeInfo.previewLink}>Preview</a>
+  
+  </article>
   `;
 };
