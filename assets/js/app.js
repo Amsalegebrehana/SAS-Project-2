@@ -70,8 +70,15 @@ const bookTemplate = (book) => {
         </div>
       </div>
     </article>
-   
+    <article data-value=${date} class="notification is-primary">
+    <p class="subtitle">Date published</p>
+    <p class="title"> ${book.volumeInfo.publishedDate}</p>
+  </article>
 
- 
+  <article data-value=${count} class="notification is-primary">
+  <p class="subtitle">Page Count</p>
+    <p class="title">${book.volumeInfo.pageCount}</p>
+    
+  </article>
   `;
 };
