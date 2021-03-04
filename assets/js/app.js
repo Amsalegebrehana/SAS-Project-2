@@ -45,3 +45,11 @@ const onBookSelect = async (book, summaryElement) => {
     summaryElement.innerHTML = bookTemplate(response.data);
 
 };
+
+const bookTemplate = (book) => {
+
+    console.log(book);
+
+
+
+};
