@@ -54,6 +54,24 @@ const bookTemplate = (book) => {
     const link = book.volumeInfo.previewLink;
 
     console.log(book);
+    return `
+    <article class="media" >
+      <figure class="card media-left"   >
+        <p class="card-img image">
+          <img src="${book.volumeInfo.imageLinks.medium}" />
+        </p>
+      </figure>
+      <div class="card media-content">
+        <div class="content">
+  
+  <h1 style="font-family: 'Akaya Kanadaka', cursive;, serif; ">${book.volumeInfo.title}</h1>
+          <h4>${book.volumeInfo.authors}</h4>
+          
+        </div>
+      </div>
+    </article>
+   
 
-
+ 
+  `;
 };
