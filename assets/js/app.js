@@ -47,9 +47,13 @@ const onBookSelect = async (book, summaryElement) => {
 };
 
 const bookTemplate = (book) => {
+    const date = parseInt(book.volumeInfo.publishedDate);
+    const rating = parseFloat(book.volumeInfo.averageRating);
+    const count = parseInt(book.volumeInfo.pageCount);
+    const pdfAvailabilty = book.accessInfo.pdf.isAvailable;
+    const link = book.volumeInfo.previewLink;
 
     console.log(book);
-
 
 
 };
