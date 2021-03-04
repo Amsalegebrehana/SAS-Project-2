@@ -34,3 +34,14 @@ createAutoComplete({
         onBookSelect(book, document.querySelector('#left-summary'), 'left');
     }
 });
+
+let leftBook;
+
+const onBookSelect = async (book, summaryElement) => {
+
+
+
+
+    summaryElement.innerHTML = bookTemplate(response.data);
+
+};
