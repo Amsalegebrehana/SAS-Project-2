@@ -39,7 +39,7 @@ let leftBook;
 
 const onBookSelect = async (book, summaryElement) => {
 
-
+    const response = await axios.get(book.selfLink);
 
 
     summaryElement.innerHTML = bookTemplate(response.data);
